@@ -1,2 +1,3 @@
-# conference-service-ballerina
-A RESTful conference service written in Ballerina.
+# Conference Service with Ballerina
+
+A RESTful conference service which is written in Ballerina.

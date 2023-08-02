@@ -1,0 +1,22 @@
+
+### Add a new conference
+POST http://localhost:8102/conferences
+Content-Type: application/json
+
+{
+    "name": "WSO2Con"
+}
+
+### Retrive all conferences
+GET http://localhost:8102/conferences
+
+### Add another conference
+POST http://localhost:8102/conferences
+Content-Type: application/json
+
+{
+    "name": "KubeCon"
+}
+
+### Retrive all conferences with country
+GET http://localhost:8102/conferenceswithcountry

@@ -1,0 +1,9 @@
+# Ballerina
+*.trace.db
+target/
+Dependencies.toml
+.devcontainer.json
+generated
+
+# MacOS
+.DS_Store

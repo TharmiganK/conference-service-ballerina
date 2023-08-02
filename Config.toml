@@ -1,0 +1,9 @@
+conferenceServicePort = 8102
+
+countryServiceUrl = "http://localhost:9000"
+
+# The database related configs
+[dbConfigs]
+dbName = "conferencedb"
+user = "admin"
+password = "admin"
