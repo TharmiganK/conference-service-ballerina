@@ -1,0 +1,22 @@
+version: '2'
+
+services:
+  conference-service:
+    image: 'ktharmi176/conference-service:1.0.0'
+    ports:
+        - '8102:8102'
+    volumes:
+        - ./Config.toml:/home/ballerina/Config.toml
+    depends_on: 
+      country-service: 
+          condition: service_started
+    network_mode: "host"
+
+  country-service:
+    image: 'ktharmi176/country-service:latest'
+    hostname: country-service
+    container_name: country-service
+    ports:
+        - '9000:9000'
+    network_mode: "host"
+  
