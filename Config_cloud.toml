@@ -1,9 +1,0 @@
-conferenceServicePort = 8102
-
-countryServiceUrl = "http://country_service:9000"
-
-# The database related configs
-[dbConfigs]
-dbName = "conferencedb"
-user = "admin"
-password = "admin"

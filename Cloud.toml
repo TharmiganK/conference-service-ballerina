@@ -1,0 +1,9 @@
+# [container.image]
+# name = "conference-service"
+# repository = "ktharmi176"
+# tag = "1.0.0"
+# base = "debian:stable-slim"
+
+# [graalvm.builder]
+# base = "ghcr.io/graalvm/native-image:ol8-java11-22.3.3"
+# buildCmd = "native-image -jar conference_service.jar --no-fallback"
